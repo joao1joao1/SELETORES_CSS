@@ -1,0 +1,53 @@
+/* SELETOR GLOBAL = Seleciona todos os elementos da página ou de determinado lugar */
+* {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* SELETOR POR TAG = Apenas coloque a tag */
+
+p {
+    color: aqua;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+/* SELETOR POR CLASS = Apenas coloque "." seguido da class */
+
+.paragrafo {
+    border: 1px solid teal;
+    margin-top: 1rem;
+}
+
+/* SELETOR POR ID = Apenas coloque "#" seguido Id */
+
+#titulo {
+    color: chartreuse;
+    margin-bottom: 1rem;
+}
+
+/* SELETOR POR ATRIBUTO no caso password*/
+
+input[type="password"] {
+    font-size: 3rem;
+}
+
+/* SELETOR POR DESCENDENTE no caso o input é o descendente "netos" */
+
+.login-form input {
+    font-size: 2rem;
+    color: #f00;
+}
+
+/* SELETOR POR FILHO DIRETO ou seja, seleciona o filho */
+
+.login-form > input {
+    color: #0f0;
+}
+
+/* PSEUDO-CLASSES */
+.cadastro-form div:nth-of-type(2) {
+    /* O EXEMPLO ACIMA EXIJE A POSIÇÃO */
+    border: 2px solid blue;
+}
